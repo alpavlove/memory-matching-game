@@ -6,15 +6,15 @@
 
 ## Development server
 
-Run `nx serve client` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+* Run `nx serve client` to run the app. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+* Run `nx serve api` to run the API.
+
+## Tests
+Run `nx test client` to execute the unit tests via [Jest](https://jestjs.io).
 
 ## Understand this workspace
 
 Run `nx graph` to see a diagram of the dependencies of the projects.
-
-## Remote caching
-
-Run `npx nx connect-to-nx-cloud` to enable [remote caching](https://nx.app) and make CI faster.
 
 ## Further help
 

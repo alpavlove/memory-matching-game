@@ -15,8 +15,8 @@
         "baseHref": "/",
         "main": "apps/client/src/main.tsx",
         "tsConfig": "apps/client/tsconfig.app.json",
-        "assets": ["apps/client/src/favicon.ico", "apps/client/src/assets"],
-        "styles": ["apps/client/src/styles.css"],
+        "assets": ["apps/client/src/favicon.ico"],
+        "styles": ["apps/client/src/styles.scss"],
         "scripts": [],
         "webpackConfig": "apps/client/webpack.config.js"
       },
@@ -48,7 +48,8 @@
       "defaultConfiguration": "development",
       "options": {
         "buildTarget": "client:build",
-        "hmr": true
+        "hmr": true,
+        "proxyConfig": "apps/client/proxy.conf.json"
       },
       "configurations": {
         "development": {
